@@ -1,0 +1,7 @@
+function [] = qno6(tau,htt, )
+h = zeros(htt);
+for i=1:100
+    x(i) = 1
+end
+for i=1:htt
+    h(i) = sinc(2 * i * tau/ tp) 
