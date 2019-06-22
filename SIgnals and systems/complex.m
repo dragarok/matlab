@@ -1,0 +1,14 @@
+a= 1:1:5
+a= 2:2:10
+rand_matrix=[1 4 3 2 5 3]
+dot_prod=rand_matrix.*rand_matrix
+trans=rand_matrix*transpose(rand_matrix)
+x= 0:pi/3:2*pi
+matrix = [1 2 3;4 5 6;7 8 9]
+matrix2 = matrix - ones(3,3)
+matrix3 = matrix * matrix2
+matrix4 = matrix .* matrix2
+matrix5 = inv(matrix4)
+sine_of_matrix =sin(matrix)
+sine_of_array = sin(x)
+sine_of_dotproduct = sin(x.*x)
